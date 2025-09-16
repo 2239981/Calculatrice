@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.symbole{
+    background-color: #5d68e2;
+}
+
+.symbole:hover{
+    background-color: #4d55b1;
+}
+
+.nbr{
+    background-color: #333849;
+}
+
+.nbr:hover{
+    background-color: #333849ac;
+}   
+

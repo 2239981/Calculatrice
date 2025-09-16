@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class =calculatrice>
         <input type="text" class="ecran" id="ecran" placeholder="0">
 
         <button class="symbole" onclick="effacer()">AC</button>
-        <button class="symbole" onclick="effacer()">C</button>
+        <button class="symbole" onclick="Poucentage('%')">%</button>
         <button class="symbole" onclick="afficher('/')">/</button>
         <button class="symbole" onclick="afficher('*')">*</button>
 
@@ -34,7 +34,7 @@
 
         <button class="symbole" onclick="afficher('(')">(</button>
         <button class="nbr" onclick="afficher()">0</button>
-        <button class="number" onclick="afficher(')')">)</button>
+        <button class="symbole" onclick="afficher(')')">)</button>
         <button class="symbole" onclick="calculer()">=</button>
 
 
