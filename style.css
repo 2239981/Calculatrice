@@ -28,6 +28,9 @@ body{
     background-color: #212532;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
 }
 
 .ecran{
