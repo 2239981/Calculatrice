@@ -1,8 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body{
     background-color: black;
@@ -25,5 +20,34 @@ body{
 
 .nbr:hover{
     background-color: #333849ac;
-}   
+}
+
+.calculatrice{
+    width: 400px;
+    height: 600px;
+    background-color: #212532;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.ecran{
+    grid-column: span 4;
+    text-align: right;
+    font-size: 2em;
+    border: none;
+    border-radius: .75rem;
+    color: #fff;
+    background-color: #333849;
+    padding: 8px;
+    margin: 16px;
+}
+
+.symbole,
+.nbr{
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    margin: 10px;
+}
 

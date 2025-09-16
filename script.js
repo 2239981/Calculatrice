@@ -7,3 +7,7 @@ function afficher(valeur) {
 function effacer(){
     affichage.value = " ";
 }
+
+function pourcentage(){
+    affichage.value = affichage.value / 100;
+}
